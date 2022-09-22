@@ -3,6 +3,77 @@
     margin: 0;
 }
 
+
+
+/* START NAVBAR CSS*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #ba745f;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+    gap: 5%;
+    font-family: 'IBM Plex Serif', serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+#navLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navCardinalHill {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+#navLinks {
+    flex-direction: row;
+    width: 45%;
+    height: 40px;
+    background: #C18D7D;
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+/* use when using link stuff */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+}
+
+nav li {
+    color: white;
+    opacity: 1;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLinkSplitter {
+    font-style: normal;
+}
+/* END NAVBAR CSS */
+
+
+
+
 body {
     width: 100%;
     height: 3000px;
@@ -11,6 +82,7 @@ body {
     
     padding-bottom: px;
 }
+
 
 p {
     background-color: #031329;
