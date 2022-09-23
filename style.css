@@ -238,6 +238,130 @@ body {
 }
 /* END ABOUT US */
 
+/*Services*/
+#servicesBC {
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+    background-color: #FFFFFF;
+    background-image: url("seb-creativo-3jG-UM8IZ40-unsplash.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    color: #E6E6E6;
+    display: flex;
+    justify-content: space-between;
+    font-size: 200%;
+}
+#servicesBusiness {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 40%;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    background-color:rgba(255, 255, 255, 0.25);
+    text-align: center;
+}
+#servicesConsumer {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 40%;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    background-color:rgba(255, 255, 255, 0.25);
+    text-align: center;
+}
+
+#servicesConsumerDetails {
+    padding-top: 20vh;
+    padding-bottom: 45vh;
+    background-color: #031329;
+    color: #E6E6E6;
+}
+#servicesConsumerDetails .servicesHeader {
+    padding-bottom: 20vh;
+    text-align: center;
+    font-size: 100px;
+}
+#servicesConsumersCards {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.servicesConsumerInfoCards {
+    height: 300px;
+    width: 25%;
+    border-radius: 20px;
+    background-color: #E6E6E6;
+    text-align: center;
+}
+.servicesConsumerInfoHeader {
+    font-size: 300%;
+    padding-top: 15%;
+}
+.servicesConsumerInfo {
+    font-size: 150%;
+    padding-top: 5%;
+}
+
+#servicesManPower {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    justify-content: center;
+    text-align: center;
+    background-color: #8DADD8;
+    color: #E6E6E6;
+}
+#servicesManPower {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 150%;
+}
+.servicesHeader {
+    font-size: 200%;
+}
+
+#servicesBusinessDetails {
+    padding-top: 45vh;
+    padding-bottom: 45vh;
+    background-image: url("han-chenxu-20qcctvyR1Q-unsplash.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#servicesBusinessDetails .servicesHeader {
+    padding-bottom: 20vh;
+    text-align: center;
+    font-size: 100px;
+}
+#servicesBusinessCards {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.servicesBusinessInfoCards {
+    height: 300px;
+    width: 25%;
+    border-radius: 20px;
+    background-color: rgb(186 116 95 / 0.86);
+    text-align: center;
+}
+.servicesBusinessInfoHeader {
+    font-size: 300%;
+    padding-top: 10%;
+}
+.servicesBusinessInfo {
+    font-size: 150%;
+    padding-top: 5%;
+}
+
+#servicesGetQuote {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    justify-content: center;
+    text-align: center;
+    background-color: #8DADD8;
+    font-size: 300%;
+}
+/*End Services*/
+
 /*Contact*/
 #contact {
     height: 175vh;
