@@ -95,13 +95,17 @@ a:active {
 }
 
 /* End Hyperlink Formatting */
+html {
+    height: 100%;
+}
 body {
     width: 100%;
     height: 3000px;
     color:#031329;
     position: relative;
     
-    padding-bottom: px;
+    display: flex;
+    flex-direction: column;
 }
 
 /*Home*/
@@ -772,7 +776,6 @@ footer {
     height: 400px;
     background-color: #031329;
     color: #FFFFFF;
-    position: absolute;
     bottom: 0;
 }
 
